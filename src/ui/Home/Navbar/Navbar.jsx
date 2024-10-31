@@ -1,4 +1,4 @@
-import logo1 from "../../../../src/assets/images/Home/logo1.png";
+import logo1 from "../../../../src/assets/images/Home/Logo1.png";
 import Favorites from "../../../../src/assets/images/Home/Favorites.png";
 import cart from "../../../../src/assets/images/Home/Cart.png";
 import User from "../../../../src/assets/images/Home/User.png";
