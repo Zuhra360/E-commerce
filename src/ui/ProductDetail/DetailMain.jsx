@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { MdOutlineArrowForwardIos } from "react-icons/md";
-import image1 from "../../../src/assets/images/ProductDetails/image1.png"
+import image1 from "../../../src/assets/images/ProductDetails/Image1.png"
 import { Box } from "@mantine/core";
 import { DetailMainData , DetailMainData2, DetailMainData3 } from "./Data";
 
