@@ -1,18 +1,18 @@
 
-import { Banner } from '../../ui/Home/Banner/Banner'
-import { SmallBanner } from '../../ui/Home/SmallBanner/SmallBanner'
-import { Category } from '../../ui/Home/Category/Category'
-import { Products } from '../../ui/Home/Products/Products'
-import { Banners } from '../../ui/Home/Banners/Banners'
-import { DiscountProduct } from '../../ui/Home/DiscountProduct/DiscountProduct'
-import { Banner2 } from '../../ui/Home/Banner2/Banner2'
-import { Navbar } from '../../ui/Home/Navbar/Navbar'
-import { Footer } from '../../ui/Home/Footer/Footer';
+import { Banner } from '../../components/ui/Home/Banner/Banner'
+import { SmallBanner } from '../../components/ui/Home/SmallBanner/SmallBanner'
+import { Category } from '../../components/ui/Home/Category/Category'
+import { Products } from '../../components/ui/Home/Products/Products'
+import { Banners } from '../../components/ui/Home/Banners/Banners'
+import { DiscountProduct } from '../../components/ui/Home/DiscountProduct/DiscountProduct'
+import { Banner2 } from '../../components/ui/Home/Banner2/Banner2'
+import { Navbar } from '../../components/ui/Home/Navbar/Navbar'
+import { Footer } from '../../components//ui/Home/Footer/Footer';
 
 
 export const Home = () => {
   return (
-    <div className='h-auto md:w-full w-[375px]  '>
+    <div className='h-auto w-full   '>
         <Navbar/>
         <Banner/>
         <SmallBanner/>

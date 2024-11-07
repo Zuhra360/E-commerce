@@ -1,15 +1,15 @@
 import React from 'react'
-import { Navbar } from '../../ui/Home/Navbar/Navbar'
-import { Footer } from '../../ui/Home/Footer/Footer'
-import { DetailMain } from '../../ui/ProductDetail/DetailMain'
-import { RelatedProducts } from '../../ui/ProductDetail/RelatedProducts'
-import { Details } from '../../ui/ProductDetail/Details'
-import { Review } from '../../ui/ProductDetail/Review'
+import { Navbar } from '../../components/ui/Home/Navbar/Navbar'
+import { Footer } from '../../components/ui/Home/Footer/Footer'
+import { DetailMain } from '../../components/ui/ProductDetail/DetailMain'
+import { RelatedProducts } from '../../components/ui/ProductDetail/RelatedProducts'
+import { Details } from '../../components/ui/ProductDetail/Details'
+import { Review } from '../../components/ui/ProductDetail/Review'
 
 
 export const ProductDetails = () => {
   return (
-    <div className='h-auto md:w-full w-[375px]'>
+    <div className='h-auto w-full'>
         <Navbar/>
         <DetailMain/>
         <Details/>
